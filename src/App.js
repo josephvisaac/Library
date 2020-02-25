@@ -1,26 +1,64 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Home from './Components/Home';
+import Table from './Components/Table';
+import './Components/testedcss.css'
+import { Switch, Route } from 'react-router-dom';
+import axios from 'axios'
+import Drama from './Components/Drama'
+
+import React, { Component } from 'react'
+import Specific from './Components/Specific';
+
+export default class App extends Component {
+
+  state = {
+    Books: []
+  }
+
+
+
+  componentDidMount() {
+    axios.get(`http://openlibrary.org/subjects/drama.json?limit=50`, {
+    
+    
+    }
+    ).then(result => {
+      console.log(result);
+      this.setState({ Books: result.data })
+    })
+  }
+
+  
+
+
+  render() {
+
+
+
+
+    return (
+      <div>
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route exact path='/Table' component={Table} />
+          <Route exact path='/drama' component={Drama} />
+          <Route exact path='/:id' render={(props) => <Specific {...props}  />} />
+         
+        </Switch>
+
+
+        
+
+      </div>
+    )
+  }
 }
 
-export default App;
+
+
+
+
+
+
+
+
