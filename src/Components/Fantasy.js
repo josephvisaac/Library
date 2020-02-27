@@ -42,7 +42,7 @@ export default class Fantasy extends Component {
 
                 <div className="carousel-inner">
                     <div className="col-md-7 col-12 order-md-1 order-2 downwards-text">
-                        <h4 className='green title-genre'>Fantasy
+                        <h4 className='color_fantasy title-genre'>Fantasy
                                             </h4>
                         <p className='darker-color'>
 
