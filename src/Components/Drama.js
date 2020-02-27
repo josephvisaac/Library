@@ -41,14 +41,7 @@ export default class Drama extends Component {
             <img alt='lovepic' className = 'moveright hsize movemoredown img_music' src = 'https://cdn.images.express.co.uk/img/dynamic/38/590x/hipermestra-808637.jpg' />    
 
                     <div>
-                    <img alt='lovepic' className = 'moveright hsize  ' src = 'https://cdn.images.express.co.uk/img/dynamic/38/590x/hipermestra-808637.jpg' />    
-            <img alt='lovepic' className = 'moveright hsize  ' src = 'https://cdn.images.express.co.uk/img/dynamic/38/590x/hipermestra-808637.jpg' />    
-            <img alt='lovepic' className = 'moveright hsize ' src = 'https://cdn.images.express.co.uk/img/dynamic/38/590x/hipermestra-808637.jpg' />    
-            <img alt='lovepic' className = 'moveright hsize  ' src = 'https://cdn.images.express.co.uk/img/dynamic/38/590x/hipermestra-808637.jpg' />    
-            <img alt='lovepic' className = 'moveright hsize  ' src = 'https://cdn.images.express.co.uk/img/dynamic/38/590x/hipermestra-808637.jpg' />    
-            <img alt='lovepic' className = 'moveright hsize  ' src = 'https://cdn.images.express.co.uk/img/dynamic/38/590x/hipermestra-808637.jpg' />    
-            <img alt='lovepic' className = 'moveright hsize  ' src = 'https://cdn.images.express.co.uk/img/dynamic/38/590x/hipermestra-808637.jpg' />    
-            <img alt='lovepic' className = 'moveright hsize  ' src = 'https://cdn.images.express.co.uk/img/dynamic/38/590x/hipermestra-808637.jpg' />    
+                
 
 
                     </div>
