@@ -12,7 +12,9 @@ export default class Fantasy extends Component {
 
 
     componentDidMount() {
-        axios.get(`https://cors-anywhere.herokuapp.com/http://openlibrary.org/subjects/fantasy.json?limit=50`,//https://cors-anywhere.herokuapp.com/
+        let path = `https://cors-anywhere.herokuapp.com/http://openlibrary.org/subjects/fantasy.json?limit=50`;
+        console.log(path);
+        axios.get(path//https://cors-anywhere.herokuapp.com/
         ).then(result => {
             console.log(result);
             this.setState({ fantasyBooks: result.data.works })
