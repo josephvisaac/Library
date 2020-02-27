@@ -12,9 +12,9 @@ export default class Fantasy extends Component {
 
 
     componentDidMount() {
-        axios.get(`http://openlibrary.org/subjects/fantasy.json?limit=50`,
+        axios.get(`https://cors-anywhere.herokuapp.com/http://openlibrary.org/subjects/fantasy.json?limit=50`,//https://cors-anywhere.herokuapp.com/
         ).then(result => {
-              console.log(result);
+            console.log(result);
             this.setState({ fantasyBooks: result.data.works })
             //   console.log(this.state.Books[0])
         })
@@ -36,33 +36,33 @@ export default class Fantasy extends Component {
                 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
                 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
                 <link href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css" rel="stylesheet" />
-            <Link to = '/table' className='back ' >Back</Link> 
-            
-            <div className="carousel-inner">
-                <div className="col-md-7 col-12 order-md-1 order-2 downwards-text">
-                    <h4 className='green title-genre'>Fantasy
+                <Link to='/table' className='back ' >Back</Link>
+
+                <div className="carousel-inner">
+                    <div className="col-md-7 col-12 order-md-1 order-2 downwards-text">
+                        <h4 className='green title-genre'>Fantasy
                                             </h4>
-                    <p className='darker-color'>     
-                    
-                      {this.state.fantasyBooks.map(book => {
-                        return (
-                                
-                            <p key={book.cover_edition_key} >
-                            <a className = 'link-color' href={`https://openlibrary.org/works/${book.cover_edition_key}`}> { book.title}</a> <br/>
-                                {/* <Link to={`/${book.cover_edition_key}`}> */}
-                                {/* {book.title}  </Link> <br /> */}
-                                Author: {book.authors[0].name} <br />
-                               
+                        <p className='darker-color'>
 
-                                Subject: <li>{book.subject[0]}</li>
-                                <li>{book.subject[1]}</li>  <br />
-                            </p>
+                            {this.state.fantasyBooks.map(book => {
+                                return (
 
-                        )
-                    })}</p>
+                                    <p key={book.cover_edition_key} >
+                                        <a className='link-color' href={`https://openlibrary.org/works/${book.cover_edition_key}`}> {book.title}</a> <br />
+                                        {/* <Link to={`/${book.cover_edition_key}`}> */}
+                                        {/* {book.title}  </Link> <br /> */}
+                                        Author: {book.authors[0].name} <br />
 
 
-</div>
+                                        Subject: <li>{book.subject[0]}</li>
+                                        <li>{book.subject[1]}</li>  <br />
+                                    </p>
+
+                                )
+                            })}</p>
+
+
+                    </div>
 
 
                 </div>
