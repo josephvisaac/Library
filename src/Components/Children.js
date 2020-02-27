@@ -12,7 +12,7 @@ export default class Children extends Component {
 
 
     componentDidMount() {
-        axios.get(`http://openlibrary.org/subjects/children.json?limit=50`,
+        axios.get(`https://cors-anywhere.herokuapp.com/http://openlibrary.org/subjects/children.json?limit=50`,
         ).then(result => {
               console.log(result);
             this.setState({ childrenBooks: result.data.works })

@@ -12,7 +12,7 @@ export default class Science extends Component {
 
 
     componentDidMount() {
-        axios.get(`http://openlibrary.org/subjects/science.json?limit=50`,
+        axios.get(`https://cors-anywhere.herokuapp.com/http://openlibrary.org/subjects/science.json?limit=50`,
         ).then(result => {
               console.log(result);
             this.setState({ scienceBooks: result.data.works })

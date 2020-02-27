@@ -12,7 +12,7 @@ export default class Religion extends Component {
 
 
     componentDidMount() {
-        axios.get(`http://openlibrary.org/subjects/religion.json?limit=50`,
+        axios.get(`https://cors-anywhere.herokuapp.com/http://openlibrary.org/subjects/religion.json?limit=50`,
         ).then(result => {
             console.log(result);
             this.setState({ religionBooks: result.data.works })

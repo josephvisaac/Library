@@ -12,7 +12,7 @@ export default class History extends Component {
 
 
     componentDidMount() {
-        axios.get(`http://openlibrary.org/subjects/history.json?limit=50`,
+        axios.get(`https://cors-anywhere.herokuapp.com/http://openlibrary.org/subjects/history.json?limit=50`,
         ).then(result => {
               console.log(result);
             this.setState({ historyBooks: result.data.works })

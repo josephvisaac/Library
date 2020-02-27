@@ -12,7 +12,7 @@ export default class Romance extends Component {
 
 
     componentDidMount() {
-        axios.get(`http://openlibrary.org/subjects/romance.json?limit=50`,
+        axios.get(`https://cors-anywhere.herokuapp.com/http://openlibrary.org/subjects/romance.json?limit=50`,
         ).then(result => {
               console.log(result);
             this.setState({ romanceBooks: result.data.works })
