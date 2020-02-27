@@ -1,3 +1,110 @@
+
+
+
+
+
+
+
+.historyone{
+  margin-top:  110px !important;
+
+}
+
+
+.history_adown{
+  margin-top:  110px !important;
+}
+
+
+.img_music{
+  border: 5px solid ;
+}
+
+
+
+
+
+/* .fantasypic1{
+  background-size: 2300px;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 1500px;
+  margin-top: 1294px;
+} */
+/* .fantasy{
+  background-image: url() !important ;
+  background-repeat: no-repeat;
+  background-size: 2300px;
+
+} */
+/* .religionback{
+  background-image: url();
+} */
+.movemoredown{
+  margin-top: 500px !important;
+}
+.small{
+  height: auto;
+  width: 350px !important;
+}
+.movemoreright{
+  margin-left: 800px;
+  margin-top: 50px;
+   position: absolute;
+   width: fit-content;
+
+}
+
+.hsize{
+  height: auto;
+  width: 700px !important;
+}
+
+
+
+
+.smaller{
+ height: auto;
+ width: 700px !important;
+}
+.flex{
+  display: flex;
+  justify-content: space-around;
+}
+.red{
+  color: red;
+}
+.green{
+  color: rgb(16, 224, 16);
+}
+.purple{
+  color: purple;
+}
+.yellow{
+  color: yellow;
+}
+
+.moveright{
+  margin-left: 400px;
+ margin-top: 50px;
+  position: absolute;
+  width: fit-content;
+}
+
+
+body{
+  background:url(https://cdn.wallpapersafari.com/73/82/0zuld2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+.link-color{
+  color: orange;
+}
+
 .animator-{
 
   -webkit-animation-name:fadeInLeft;
@@ -11,8 +118,7 @@
 }
 
 body{
-  background:url(https://cdn.wallpapersafari.com/73/82/0zuld2.jpg);
-  background-size: cover;
+
   
   /* -webkit-animation: fadein 4s; 
   -moz-animation: fadein 4s; 
@@ -29,6 +135,8 @@ body{
 .back{
   position: relative;
   margin-left: 15px;
+  margin-bottom: 1000px !important;
+  
  color: greenyellow;
  font-size: 20px;
   /* margin-bottom: 40px; */
