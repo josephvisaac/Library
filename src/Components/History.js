@@ -41,7 +41,7 @@ export default class History extends Component {
             
             <div className="carousel-inner">
                 <div className="col-md-7 col-12 order-md-1 order-2 downwards-text">
-                    <h4 className='green'>Historic
+                    <h4 className='green'>Historic Works
                                             </h4>
                     <p className='darker-color'>     
                     

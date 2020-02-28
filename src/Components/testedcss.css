@@ -1,9 +1,25 @@
 
 
+/* .children{
+  height: 300px;
+
+  width: 600px !important;
+} */
+
+.romance{
+  position: absolute;
+  margin-left: 450px;
+  /* margin-bottom: 500px; */
+  margin-top: 150px;
+  height: 300px;
+}
 
 
+.science_image{
+  margin-left: 500px;
+}
 .color_fantasy{
-  color: blueviolet;
+  color: rgb(211, 163, 255);
 }
 
 

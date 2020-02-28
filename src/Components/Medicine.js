@@ -37,6 +37,7 @@ export default class Medicine extends Component {
                 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
                 <link href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css" rel="stylesheet" />
             <Link to = '/table' className='back ' >Back</Link> 
+            <img alt='lovepic' className = 'moveright img_music history_adown' src = 'https://www.vejthani.com/wp-content/uploads/2019/09/Page-12-13-All-About-Medicine-e1567420226769.jpg' />    
             
             <div className="carousel-inner">
                 <div className="col-md-7 col-12 order-md-1 order-2 downwards-text">

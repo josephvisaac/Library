@@ -39,6 +39,7 @@ export default class Fantasy extends Component {
                 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
                 <link href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css" rel="stylesheet" />
                 <Link to='/table' className='back ' >Back</Link>
+            <img alt='lovepic' className = 'moveright img_music history_adown' src = 'https://www.thecollectionshop.com/Image_Resize_Detail_Image.asp?MiscImage=CEASMILETR' />    
 
                 <div className="carousel-inner">
                     <div className="col-md-7 col-12 order-md-1 order-2 downwards-text">
