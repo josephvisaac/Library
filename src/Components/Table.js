@@ -24,7 +24,7 @@ function Table() {
                                         <p className='darker-color'>by:</p>
                                         <div className = 'flex'>
                                         <Link to = '/drama' className='darker-color' >Drama </Link> 
-                                        <Link to = '/history' className='darker-color' > Historic</Link>   
+                                        <Link to = '/history' className='darker-color' > Historic Docs</Link>   
                                         <Link to = '/religion' className='darker-color' > Religion</Link>   
                                         <Link to = '/love' className='darker-color' > Love </Link>   
                                         <Link to = '/music' className='darker-color' > Music </Link>  
